@@ -4,7 +4,7 @@
   "description": "A FAC Morning Challenge",
   "main": "index.js",
   "scripts": {
-    "start":"browser-sync start --server --files '*.html, css/*.css'",
+    "start":"browser-sync start --server --files '*.html, *.css'",
     "test": "tape"
   },
   "repository": {
