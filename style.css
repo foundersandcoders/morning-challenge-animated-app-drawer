@@ -62,7 +62,8 @@ a {
     top: 0;
     left: 0;
     z-index: 5;
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     width: 20%;
     transform: translateX(-100%);
     background-color: lightblue;
