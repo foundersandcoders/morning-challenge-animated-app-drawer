@@ -33,3 +33,8 @@ transform: scale | translate | rotate
 
 * My solution is on the `solution branch` please do not check this till the
   end of the workshop.
+
+## Stretch Goals
+
+* Write an express server once your drawer is complete to serve up these
+  files
