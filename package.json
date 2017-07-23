@@ -1,0 +1,26 @@
+{
+  "name": "morning-challenge-animated-app-drawer",
+  "version": "1.0.0",
+  "description": "A FAC Morning Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start":"browser-sync start --server --files '*.html, css/*.css'",
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akin909/morning-challenge-animated-app-drawer.git"
+  },
+  "keywords": [
+    "FAC"
+  ],
+  "author": "Akin Sowemimo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akin909/morning-challenge-animated-app-drawer/issues"
+  },
+  "homepage": "https://github.com/Akin909/morning-challenge-animated-app-drawer#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
