@@ -1,6 +1,6 @@
 # Morning Challenge - Making an Animated App Drawer
 
-![GIF of an animated app drawer in action](./assets/animated-drawer.gif)
+![GIF of an animated app drawer in action](./assets/app-drawer.gif)
 
 An Animated App Drawer/ Menu bar is a common UI pattern seen in gazillions of
 web applications. The Objective of this challenge is to create one both
