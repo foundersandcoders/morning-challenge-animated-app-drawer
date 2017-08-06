@@ -17,12 +17,15 @@ a {
     background-color: skyblue;
     padding: 0.5em;
     margin: 0;
+    display: flex;
     /*the first argument is the horizontal offset then vertical offset then the blur and finally the color*/
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-bar__links {
     width: 33.33%;
+    margin-left: auto;
+    text-align: center;
 }
 
 .title {
