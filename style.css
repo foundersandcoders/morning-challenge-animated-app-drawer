@@ -12,18 +12,21 @@ a {
 }
 
 .nav-bar {
-    height: 2em;
-    width: 100%;
-    background-color: skyblue;
-    padding: 0.5em;
-    margin: 0;
-    z-index: 10;
     /*the first argument is the horizontal offset then vertical offset then the blur and finally the color*/
+    background-color: skyblue;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 2em;
+    margin: 0;
+    padding: 0.5em;
+    width: 100%;
+    z-index: 10;
 }
 
 .nav-bar__links {
     width: 33.33%;
+    margin-left: auto;
+    text-align: center;
 }
 
 .title {
@@ -32,6 +35,7 @@ a {
 }
 
 .container {
+    position: relative; /* The drawer is Relative to this element.. this is very significant*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -61,7 +65,7 @@ a {
     position: absolute; /*Takes element out of the flow of the page */
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 1;
     min-height: 100%;
     height: auto;
     width: 20%;
@@ -78,7 +82,7 @@ a {
 .app_drawer__button {
     position: absolute;
     z-index: 15;
-    top: 10%;
+    top: 3%;
     left: 3em;
     border-radius: 50%;
     border: 12px solid midnightblue;
@@ -94,6 +98,6 @@ a {
 
 .app_drawer__button__visible{
     transform: scale(0.8);
-    top: 3%;
+    top: 1%;
     left: 14%;
 }
