@@ -63,7 +63,7 @@ a {
 /* Hint: the elements position is important */
 }
 
-.app_drawer__visible {
+.app_drawer--visible {
 /*styles for when the drawer is visible*/
 }
 
@@ -71,7 +71,7 @@ a {
 
 }
 
-.app_drawer__button__visible {
+.app_drawer__button--visible {
 
 }
 

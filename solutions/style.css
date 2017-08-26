@@ -92,11 +92,11 @@ a {
     transition: all 0.5s ease-in;
 }
 
-.app_drawer__visible {
+.app_drawer--visible {
     transform: translateX(0);
 }
 
-.app_drawer__button__visible{
+.app_drawer__button--visible{
     transform: scale(0.8);
     top: 1%;
     left: 14%;

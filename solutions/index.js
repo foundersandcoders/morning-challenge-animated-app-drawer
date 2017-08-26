@@ -7,6 +7,6 @@
 })();
 
 function toggleMenu(drawer, button) {
-  button.classList.toggle('app_drawer__button__visible');
-  drawer.classList.toggle('app_drawer__visible');
+  button.classList.toggle('app_drawer__button--visible');
+  drawer.classList.toggle('app_drawer--visible');
 }
